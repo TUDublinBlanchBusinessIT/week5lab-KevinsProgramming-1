@@ -21,10 +21,15 @@
           <div class="container-fluid">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href=https://laravel.com/docs>Laravel Documentation</a>
+                <a class="nav-link" href={{ route('bookings.create')}}>Create Booking</a>
+                
               </li>
               <li class="nav-item">
-                <a class="nav-link" href=https://laracasts.com/>Laravel Video Tutorials</a>
+              <a class="nav-link" href={{ route('members.create')}}>New Members</a>
+              </li>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href={{ route('courts.create')}}>New Courts</a>
               </li>
             </ul>
           </div>
